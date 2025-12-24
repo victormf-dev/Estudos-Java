@@ -11,7 +11,7 @@ public class Main {
         int idade = 33; // para número inteiros
         long accountBalance = 1580375L;// para número muito grandes --> tem que colocar o L no final
         double processPayment = 37500.25; // para números com pontos flutuantes --> número depois da vírgula
-        String gender = "Masculino"; // para declarar caractere único - unicode --> M de masculino
+        char gender = 'M'; // para declarar caractere único - unicode --> M de masculino
         boolean learningJava = true; // para declarar verdadeiro ou falso
 
         System.out.println("Identification Data:");

@@ -34,7 +34,5 @@ public class OperadoresAritimeticos {
         System.out.println("O Valor total da compra é R$ " + valorGastoMensal + " por pessoa");
 
 
-
-
     }
 }

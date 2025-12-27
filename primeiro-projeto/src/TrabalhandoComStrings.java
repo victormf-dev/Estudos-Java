@@ -5,10 +5,9 @@ public class TrabalhandoComStrings {
         String sobrenome = " Marques";
 
         int tamanhoStringNome = nome.length();
-        int tamanhoStrigSobrenome = sobrenome.length();
+        int tamanhoStringSobrenome = sobrenome.length();
         String nomeCompleto = nome + sobrenome;
         int tamanhoNome = nome.length() + sobrenome.length();
-
         boolean saoIguais = nome.equals(sobrenome);
 
         System.out.println("Olá "+ nome +","+ " seu nome tem "+ tamanhoStringNome + " caracteres ");

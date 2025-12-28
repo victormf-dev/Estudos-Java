@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class TriagemJusticaGratuita {
     public static void main(String[] args) {
 
-        Scanner read = new Scanner(System.in);
+        Scanner reader = new Scanner(System.in);
 
         double faixaDeCorte = 2800.00;
 
         System.out.println(" Digite o salário mensal do cliente: ");
 
-        double salarioMensal = read.nextDouble();
+        double salarioMensal = reader.nextDouble();
 
         if (salarioMensal <= faixaDeCorte) {
             System.out.println("Como o salário mensal do cliente é de R$ " + salarioMensal + ", ou seja, abaixo de " + faixaDeCorte +

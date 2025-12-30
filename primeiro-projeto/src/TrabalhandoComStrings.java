@@ -1,13 +1,13 @@
 public class TrabalhandoComStrings {
     public static void main(String[] args){
 
-        // Trabalhando com Strings
-            // String em JAVA é usada para armazenar e manipular texto.
+        /*Trabalhando com Strings
+            String em JAVA é usada para armazenar e manipular texto.
 
-        // Concatenando Strings
-            // Usa o operador + para cogitncatenar (juntar) strings
-            // Ex: String saudação = "Olá, + nome + "!";
-
+         Concatenando Strings
+             Usa o operador + para cogitncatenar (juntar) strings
+             Ex: String saudação = "Olá, + nome + "!";
+        */
        String nome = "Victor";
        String sobrenome = "Marques";
 

@@ -7,5 +7,6 @@ public class OperadoresLogicos {
         System.out.println(x || y); // || --> OU - lógico --> (OR) --> 1 coisa ou outra
         System.out.println(!x);     // ! --> Negação lógica --> (NOT) --> Não coisa (nega)
         System.out.println(!y);     // ! --> Negação lógica --> (NOT) --> Não coisa (nega)
+
     }
 }

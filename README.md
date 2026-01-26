@@ -47,11 +47,12 @@ Estou seguindo uma grade curricular completa (Javanauta & DevDojo), cobrindo des
 ## 📂 Estrutura do Repositório
 Os projetos estão organizados em pacotes para facilitar a navegação:
 
-| Diretório | Descrição | Stack Principal         |
-| :--- | :--- |:------------------------|
-| `desafios-gemini` | Exercícios de Lógica e Regras de Negócio (Mentoria IA) | Java 17, Java 21, Logic |
-| `curso-javanauta` | Projetos práticos do treinamento Full Stack | Spring, Angular         |
-| `devdojo-maratona` | Exercícios intensivos de fixação (Virado no Jiraya) | Core Java               |
+| Diretório           | Descrição                                                    | Stack Principal           |
+|:--------------------|:-------------------------------------------------------------|:--------------------------|
+| `desafios-gemini`   | Exercícios de Lógica e Regras de Negócio (Mentoria IA)       | Java 17, Java 21, Logic   |
+| `curso-javanauta`   | Projetos práticos do treinamento Full Stack                  | Spring, Angular           |
+| `devdojo-maratona`  | Exercícios intensivos de fixação (Virado no Jiraya)          | Core Java                 |
+| `automacoes-n8n`    | Projetos de automações usando n8n worflows                   | n8n workflows, JavaScript |
 
 ## 🎯 Projetos em Destaque (Em Construção)
 > *Aqui listarei os projetos "assinatura" conforme forem concluídos.*

@@ -25,11 +25,11 @@ public class ConversaoTipos {
       Tem que usar o Integer --> que é encapsulado (o int está dentro dele). Da mesma forma de String para
         */
         Integer numeroInteger = 10;
-        String numeroString = numeroInteger.toString();
+        String numeroString = numeroInteger.toString(); // De Interger para String
         System.out.println(numeroString);
 
         String num2String = "2026";
-        Integer num2Integer = Integer.parseInt(num2String);
+        Integer num2Integer = Integer.parseInt(num2String); // De String para Interger
         System.out.println(num2Integer);
 
         Double numeroDouble = 20.5;

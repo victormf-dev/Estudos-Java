@@ -9,6 +9,7 @@ public class OperadoresAritimeticos {
              Divisão (/)
              Módulo (%) --> Retorna o resto da divisão --> Ex: 5 dividido por 2, daria 2 como resultado principal
                 e sobraria o 1 para ser dividido por 2 depois --> o módulo retorna esse 1
+             TODO NÚMERO PAR É DIVISÍVEL POR 2 COM MÓDULO 0 (o módulo é o resto da divisão)
 
          Precedência de Operadores --> Como na matemática - determina quais as operações serão executadas primeiro
              1º Resolve o parêntesis

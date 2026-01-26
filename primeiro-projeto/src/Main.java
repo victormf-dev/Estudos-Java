@@ -1,7 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        /* System.out.println --> imprime coisas na tela
+         /*
+        Lógica sequencial = Instruções executadas uma após a outra
+            - 1º  de cima pra baixo
+            - 2º da esquerda pra direita
+
+        System.out.println --> imprime coisas na tela e pula uma linha
 
         Variáveis - caixa onde guarda valores --> guarda a informação até receber o destino final
              Para nomear as variáveis dar nomes fáceis --> Ex: nome exato do que a variável guarda
@@ -10,7 +15,7 @@ public class Main {
              Exemplo: int (inteiro) --> idade (nome da variável)
              O símbolo '' = ''  em linguagem de programação significa atribuir - atribuição
 
-         Tipos Primitivos (tipos mais básicos):
+         Tipos Primitivos em JAVA (tipos mais básicos):
              Inteiros (números): byte, short, int e long
              Ponto Flutuantes (números/casas depois da vírgula): float, double
              Caractere: char (caractere unicode) --> Só um --> Ex: F (feminino) / M (masculino)
@@ -18,6 +23,7 @@ public class Main {
              Booleano (boolean): Representa verdadeiro ou falso --> True or False
              Tipos Primitivos mais usados: (int, long, double, char e boolean) + String --> Para Caracteres
         */
+
         String userName = " Victor "; // usado para caracteres
         String userSurname = "Marques Ferreira "; // usado para caracteres
         int idade = 33; // para número inteiros
@@ -33,6 +39,7 @@ public class Main {
         System.out.println("Payment for IR Law Suit: " + " R$ " + processPayment + " reais");
         System.out.println("Gender: " + gender);
         System.out.println("Learning JAVA: "+ learningJava);
+
 
     }
 }

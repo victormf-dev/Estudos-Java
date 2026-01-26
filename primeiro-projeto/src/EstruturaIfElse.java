@@ -5,14 +5,12 @@ public class EstruturaIfElse {
      /* A Estrutura condicional If, Else e Else If
         If --> Se a condição for verdadeira --> Executa alguma coisa
         Else --> Se a condição for falsa --> Executa essa "outra coisa"
-        Else If --> É a validação, o teste de uma segunda condição após o If --> Se o 1º if for falso, testa o
                 else if --> Se ele for verdadeiro executa a condição dele.
            Se o else if for falso também, vai para o else --> Executa-se a condição do else (que é o fim da condição)
         If --> Se a CONDIÇÃO 1 for verdadeira --> Executa e sai da estrutura.
    Else If --> (Opcional - CONDIÇÃO 2, pode ter vários Else If - que são as condições em cascata) --> Se o anterior falhou, testa este.
    Se for verdade, executa e sai. --> Se essa condição falhar --> executa a CONDIÇÃO 3 e etc... em cascata.
    Else --> (Opcional) --> Se TODAS as condições acima falharam --> Executa isso como último recurso.
-
             ESTRUTURA DO CÓDIGO CONDICIONAL --> IF ELSE
                if (condição1) {
                 se a condição for verdadeira --> executa --> se não
@@ -34,7 +32,6 @@ public class EstruturaIfElse {
 
         boolean estaChovendo = true;
         if (!estaChovendo) {
-            System.out.println("Vamos sair pra passear");
         }
         else {
             System.out.println("Vamos ficar em casa");
@@ -67,7 +64,6 @@ public class EstruturaIfElse {
 
                 // Vamos guardar o valor do imposto aqui para calcular depois
                 double valorDoImposto = 0;
-                double porcentagemIR = 0;
 
                 System.out.println("Analisando seu salário de R$ " + salarioMensal + "...");
 
@@ -77,33 +73,19 @@ public class EstruturaIfElse {
                 }
                 else if (salarioMensal >= 3000 && salarioMensal < 5000) {
                     // Regra: Entre 3mil e 5mil
-                    porcentagemIR = 0.15; // 15 % -- De imposto
-                    valorDoImposto = salarioMensal * porcentagemIR; // 15% na matemática
 
                     System.out.println("Sua alíquota é de 15%.");
                     System.out.println("Valor a pagar: R$ " + valorDoImposto);
                 }
                 else {
                     // Regra: Acima de 5mil (O Residual/Else)
-                    porcentagemIR = 0.275; // 27,5% -- De imposto
-                    valorDoImposto = salarioMensal * porcentagemIR; // 27.5% na matemática
 
                     System.out.println("Sua alíquota é de 27.5%.");
                     System.out.println("Valor a pagar: R$ " + valorDoImposto);
                 }
 
 
-                /*
-                Operador Ternário --> É uma outra forma de sintaxe no JAVA pra fazer a estrutura If e Else.
-                    No operador ternário o ponto de interrogação (?) representa o SE e o dois pontos (:) representa
-                    o Else. --> A estrutura fica --> Variável nomeDaVariavel = (condição) ? "O que vai ser impresso
-                    se a condição for atendida" : "O que vai ser impresso se a condição não for atendida"
-                 */
 
-        boolean temDinheiro2 = false;
-        boolean temCartao2 = true;
-            String mensagem = (temDinheiro2) ? "Pede um ifood" : "Pede nada, liso!";
-        System.out.println(mensagem);
 
 
     }

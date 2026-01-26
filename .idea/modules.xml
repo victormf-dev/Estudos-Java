@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Estudos-Java.iml" filepath="$PROJECT_DIR$/.idea/Estudos-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios-gemini/desafio-gemini-aprovador-financiamento/desafio-gemini-aprovador-financiamento.iml" filepath="$PROJECT_DIR$/desafios-gemini/desafio-gemini-aprovador-financiamento/desafio-gemini-aprovador-financiamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios-gemini/desafios-gemini.iml" filepath="$PROJECT_DIR$/desafios-gemini/desafios-gemini.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devdojo-estudos/devdojo-estudos.iml" filepath="$PROJECT_DIR$/devdojo-estudos/devdojo-estudos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primeiro-projeto/primeiro-projeto.iml" filepath="$PROJECT_DIR$/primeiro-projeto/primeiro-projeto.iml" />
+    </modules>
+  </component>
+</project>

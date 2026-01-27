@@ -1,3 +1,4 @@
+### 🟢 Nível Básico (Lógica e Sintaxe)
 # Desafio 1: Aprovador de Financiamento (Loja de Veículos)
 
 Este projeto é um sistema de análise de crédito simples para auxiliar vendedores de veículos.

@@ -4,7 +4,7 @@ public class OperadoresAritimeticos {
        /* REGRA DE NOME DE CLASSE: NÃO TEM CAMEL CASE - NÃO TEM ACENTO - NÃO TEM ESPAÇO
             Operadores Aritméticos
              Adição (+)
-             Subrtração (-)
+             Subtração (-)
              Multiplicação (*)
              Divisão (/)
              Módulo (%) --> Retorna o resto da divisão --> Ex: 5 dividido por 2, daria 2 como resultado principal

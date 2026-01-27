@@ -58,3 +58,27 @@ Número de parcelas: 24
 Resultado:
 Parabéns Victor, crédito aprovado! Parcela: R$ 2083.33
 Status do Cliente: Cliente VIP 🌟
+
+---------------------------
+
+## 🧠 Aprendizados & Melhorias
+Durante o desenvolvimento, revisei a saída de dados conforme a sugestão do Gemini, mudando da concatenação padrão para o `printf`.
+
+### O Problema da Concatenação (`println`)
+O código ficava poluído com muitos `+` e aspas, e o valor monetário aparecia com muitas casas decimais (ex: `R$ 333.33333`).
+
+### A Solução com `printf` (Print Formatted)
+Usei o método de "máscaras" para formatar o texto e limitar as casas decimais.
+
+```java
+// Sintaxe: (Frase com lacunas, variavel1, variavel2)
+System.out.printf("Parabéns, %s! Parcela: R$ %.2f%n", nomeCliente, valorDaParcela);
+
+## Tabela de Máscaras (Cheat Sheet)
+
+Máscara,Tipo de Dado,Descrição
+%s,String,Para textos (ex: Nome)
+%.2f,Double/Float,Para dinheiro (2 casas decimais)
+%d,Int,Para números inteiros
+%n,-,Pula uma linha (substituto do \n)
+**Importante:** A ordem das variáveis (após a vírgula) deve seguir rigorosamente a sequência das máscaras na frase.

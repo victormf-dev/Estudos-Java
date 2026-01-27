@@ -17,6 +17,7 @@ public class TrabalhandoComStrings {
        int somaTamanhoStringsNomeESobrenome = nome.length() + sobrenome.length();
        boolean nomesSaoIguais = nome.equals(sobrenome);
 
+
         System.out.println("Olá, " + nome + " " + sobrenome);
         System.out.println(nome + " seu nome tem " + tamanhoStringNome + " caracteres");
         System.out.println(nome + " seu sobrenome tem " + tamanhoStringSobrenome + " caracteres");

@@ -6,6 +6,7 @@ public class SwitchCase {
       O Switch Case é basicamente a mesma estrutura do If Else. --> ALTERNATIVA A IF ELSE
         --> O If e Else é usado para a verificação de no máximo 3 condições - if/else if/else (boas práticas)
         --> O operador ternário é usado para a verificação de 1 condição somente, if/else simples (boas práticas)
+            Estrutura do operador ternário em JAVA --> condição ? valor_se_verdadeiro : valor_se_falso
         --> Já o switch case é usado para a verificação de várias condições, na mesma estrutura --> Se atendida a
             a condição, executa e tem o comando break; --> Se não passa pra próxima. De forma sequênciada.
             Switch Case: É perfeito para VALORES EXATOS (Igualdade).
@@ -20,7 +21,7 @@ public class SwitchCase {
             case valor2: idade < 3
                 executa isso
              break;
-             default?
+             default;
 
              }
 

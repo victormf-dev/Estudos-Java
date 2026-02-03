@@ -75,12 +75,14 @@ public class EstruturaIfElse {
                     // Regra: Entre 3mil e 5mil
 
                     System.out.println("Sua alíquota é de 15%.");
+                    valorDoImposto = 0.15 * salarioMensal;
                     System.out.println("Valor a pagar: R$ " + valorDoImposto);
                 }
                 else {
                     // Regra: Acima de 5mil (O Residual/Else)
 
                     System.out.println("Sua alíquota é de 27.5%.");
+                    valorDoImposto = 0.275 * salarioMensal;
                     System.out.println("Valor a pagar: R$ " + valorDoImposto);
                 }
 

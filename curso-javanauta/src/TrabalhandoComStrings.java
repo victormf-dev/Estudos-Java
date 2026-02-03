@@ -6,7 +6,7 @@ public class TrabalhandoComStrings {
             String é sequência de caracteres
 
          Concatenando Strings
-             Usa o operador + para cogitncatenar (juntar) strings
+             Usa o operador + para concatenar (juntar) strings
              Ex: String saudação = "Olá, + nome + "!";
         */
        String nome = "Victor";

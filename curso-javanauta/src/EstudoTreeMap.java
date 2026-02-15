@@ -16,7 +16,7 @@ public class EstudoTreeMap {
         notasAlunos.put("Maria", 9.9);
         notasAlunos.put("Matheus", 9.5);
 
-        // iterar com for --> keyset (chave --> no caso aqui Chave é o nome e o valor a nota)
+        // iterar com for --> keyset (chave --> no caso aqui Chave é o nome e o valor a nota).
         for (String nome : notasAlunos.keySet()) {
             double nota = notasAlunos.get(nome);
             System.out.println(nome + ": " + nota);

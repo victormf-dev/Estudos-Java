@@ -20,12 +20,12 @@ public class CalculadoraDeAposentadoriaSimples {
         if (idadeCliente >= requisitoEtario && tempoDeContribuicao >= requisitoTempoContribuicao) {
             System.out.println(nomeDoCliente + ", você cumpre as regras da Previdência Social e já pode requerer " +
                     " sua aposentadoria.");
-        }
-        else {
+        } else {
             System.out.println(nomeDoCliente + ", infelizmente você não cumpre as regras da Previdência Social e ainda " +
                     " não pode requerer sua aposentadoria");
 
         }
+        leitor.close();
 
     }
 }

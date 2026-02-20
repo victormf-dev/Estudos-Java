@@ -18,6 +18,8 @@ public class TriagemJusticaGratuita {
             System.out.println("Como o salário mensal do cliente é de R$ " + salarioMensal + ", ou seja, acima de " + faixaDeCorte +
                     ", o perfil do Cliente está Reprovado para Justiça Gratuita. O Cliente deve pagar custas");
 
+
         }
+        reader.close();
     }
 }

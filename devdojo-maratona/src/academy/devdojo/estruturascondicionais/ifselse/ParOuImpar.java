@@ -1,4 +1,5 @@
-import javax.sound.midi.Soundbank;
+package academy.devdojo.estruturascondicionais.ifselse;
+
 import java.util.Scanner;
 
 public class ParOuImpar {

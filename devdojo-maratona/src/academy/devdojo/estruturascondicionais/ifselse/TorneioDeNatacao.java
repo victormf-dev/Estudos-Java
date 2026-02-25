@@ -1,3 +1,5 @@
+package academy.devdojo.estruturascondicionais.ifselse;
+
 import java.util.Scanner;
 
 public class TorneioDeNatacao {
@@ -19,5 +21,8 @@ public class TorneioDeNatacao {
             System.out.println(nome + ", você participará da categoria Adulto");
         }
         sc.close();
+        String nome2 = null; // --> O null significa que não referencia nada. É diferente de vazio. Só acontece em objetos
+
+        String nome3 ="";// --> Vazio --> Agora está referenciado na memória, mas não tem nada. Está vazio.
     }
 }

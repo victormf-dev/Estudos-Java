@@ -1,3 +1,5 @@
+package academy.devdojo.estruturascondicionais.ifselse;
+
 import java.util.Scanner;
 
 public class ImpostoDeRenda {

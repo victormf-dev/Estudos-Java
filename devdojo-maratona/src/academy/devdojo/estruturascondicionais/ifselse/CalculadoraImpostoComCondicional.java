@@ -1,3 +1,5 @@
+package academy.devdojo.estruturascondicionais.ifselse;
+
 public class CalculadoraImpostoComCondicional {
     public static void main(String[] args) {
         double salario = 4200;
